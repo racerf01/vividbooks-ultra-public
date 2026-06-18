@@ -1,0 +1,1 @@
+import{a as c}from"./vendor-react-Bff9NmsZ.js";import{g as s,i as n,r as u}from"./teacher-file-image-url-CtbUuua6.js";function o(r){const[l,t]=c.useState(()=>r?.trim()?s(r):"");return c.useEffect(()=>{const e=r?.trim()||"";if(!e){t("");return}if(n(e)){t(e);return}let a=!1;return t(s(e)),u(e).then(i=>{!a&&i&&t(i)}),()=>{a=!0}},[r]),l}export{o as u};
